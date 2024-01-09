@@ -75,7 +75,7 @@
                 <span class="material-icons-round">menu</span>
             </div>
                 <div class="headings">
-                    <h1>CS : LIFE</h1>
+                    <h1>View Students</h1>
                 </div>
 
                 <div class="user">

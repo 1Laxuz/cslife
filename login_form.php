@@ -21,12 +21,12 @@ if(isset($_POST['submit'])){
 
       if($row['user_type'] == 'admin'){
          $_SESSION['user_type'] = 'admin';
-         $_SESSION['admin_name'] = $row['Fname'];
+
          header('location:admin_page.php');
 
       }elseif($row['user_type'] == 'user'){
          $_SESSION['user_type'] = 'user';
-         $_SESSION['user_name'] = $row['Fname'];
+         
          header('location:user_page.php');
       }  
    }else{

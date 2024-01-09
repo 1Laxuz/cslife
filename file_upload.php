@@ -18,7 +18,7 @@
         </div>
             <ul>
                 <li>
-                    <a href="admin_page.php">
+                    <a href="user_page.php">
                         <span class="icon">
                         <span class="material-icons-round">space_dashboard</span>
                         </span>
@@ -27,23 +27,14 @@
                 </li>
 
                 <li>
-                    <a href="display.php">
-                        <span class="icon">
-                        <span class="material-icons-round">people</span>
-                        </span>
-                        <span class="title">View Students</span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="register.php">
+                    <a href="file_upload.php">
                     <span class="icon">
-                         <span class="material-icons-round">group_add</span> 
-                         </span> 
-                        <span class="title">Add Students</span>
+                        <span class="material-icons-round">drive_folder_upload</span>
+                        </span> 
+                        <span class="title">File Upload</span>
                     </a>
                 </li>
-
+                
                 <li>
                     <a href="about.php">
                     <span class="icon">
@@ -63,6 +54,7 @@
                 </li>
             </ul>
     </div>
+    
     
         <!-- =============== TOP NAV ================ -->
     <div class="headerNav">

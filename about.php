@@ -158,14 +158,6 @@ We've integrated a robust web portal that centralizes your game scores and user 
                         <span class="title">Dashboard</span>
                     </a>
                 </li>
-                <li>
-                    <a href="edit_account.php">
-                    <span class="icon">
-                        <span class="material-icons-round">manage_accounts</span>
-                        </span> 
-                        <span class="title">Account Profile</span>
-                    </a>
-                </li>
 
                 <li>
                     <a href="file_upload.php">

@@ -4,7 +4,7 @@
 
 session_start();
 
-if(!isset($_SESSION['user_name'])){
+if(!isset($_SESSION['user_type'])){
    header('location:login_form.php');
 }
 
@@ -31,7 +31,7 @@ if(!isset($_SESSION['user_name'])){
         </div>
             <ul>
                 <li>
-                    <a href="admin_page.php">
+                    <a href="user_page.php">
                         <span class="icon">
                         <span class="material-icons-round">space_dashboard</span>
                         </span>
@@ -39,13 +39,6 @@ if(!isset($_SESSION['user_name'])){
                     </a>
                 </li>
                 <li>
-                    <a href="edit_account.php">
-                    <span class="icon">
-                        <span class="material-icons-round">manage_accounts</span>
-                        </span> 
-                        <span class="title">Account Profile</span>
-                    </a>
-                </li>
 
                 <li>
                     <a href="file_upload.php">
